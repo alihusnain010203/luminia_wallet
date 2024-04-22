@@ -5,9 +5,9 @@ const Landing = () => {
   return (
     <div className="w-full relative rounded-[35px] bg-gray-200 overflow-hidden flex flex-col items-start justify-start pt-[2.187rem] px-[0rem] pb-[0rem] box-border gap-[6.375rem] leading-[normal] tracking-[normal] text-left text-[3.313rem] text-white font-poppins mq450:gap-[1.563rem] mq1050:gap-[3.188rem]">
       <FrameComponent2 />
-      <main className="w-[75.813rem] h-[162.75rem] absolute !m-[0] top-[0rem] right-[0rem]">
+      <main className="w-[50%] h-[162.75rem] absolute !m-[0] top-[0rem] left-[5rem] md:left-[15rem] lg:left-[10rem]">
         <img
-          className="absolute top-[60.813rem] left-[25.188rem] w-[127.375rem] h-[101.938rem] object-cover"
+          className="absolute top-[60.813rem]  w-[127.375rem] h-[101.938rem] object-cover"
           alt=""
           src="/3dmoderntechnologybackgrounddigitalwireframelandscape-2@2x.png"
         />
@@ -62,7 +62,7 @@ const Landing = () => {
           src="/vector-4.svg"
         />
       </div>
-      <div className="w-[63.188rem] flex flex-row items-start justify-center pt-[0rem] px-[1.25rem] pb-[16.625rem] box-border max-w-full mq750:pb-[10.813rem] mq750:box-border">
+      <div className="w-[50%] flex flex-row items-start justify-center pt-[0rem] px-[1.25rem] pb-[16.625rem] box-border max-w-full mq750:pb-[10.813rem] mq750:box-border">
         <div className="w-[42.813rem] flex flex-col items-start justify-start gap-[1.687rem] max-w-full">
           <div className="w-[38.188rem] relative leading-[138.9%] uppercase font-light inline-block max-w-full z-[2] mq450:text-[2rem] mq450:leading-[2.75rem] mq1050:text-[2.625rem] mq1050:leading-[3.688rem]">
             <p className="m-0">Snipe and sell tokens</p>
